@@ -1,0 +1,51 @@
+.detail_movie {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-weight: 500;
+    padding: 20px;
+    margin-top: 5rem;
+    border-radius: 5px;
+    color: #adaeb9;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3),
+        0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.detail_movie img {
+    position: relative;
+    top: -50px;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+        0 18px 36px -18px rgba(0, 0, 0, 0.3),
+        0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.detail_movie .detail_title,
+.detail_movie .detail_year {
+    margin: 0;
+    font-weight: 300;
+}
+
+.detail_movie .detail_title {
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: #2c2c2c;
+}
+
+.detail_movie .detail_genres {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+}
+
+.detail_genres,
+.detail_movie .detail_year {
+    margin-right: 10px;
+    font-size: 14px;
+}
